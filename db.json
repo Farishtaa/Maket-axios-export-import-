@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "img": "images/Avatar1.png",
+      "email": "jackson.graham@example.com",
+      "name": "Jacob Jones",
+      "city": "Kulob",
+      "status": "Inactive",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 2,
+      "img": "images/Avatar2.png",
+      "email": "jessica.hanson@example.com",
+      "name": "Jenny Wilson",
+      "city": "Kulob",
+      "status": "Inactive",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 3,
+      "img": "images/Avatar3.png",
+      "email": "bill.sanders@example.com",
+      "name": "Guy Hawkins",
+      "city": "Dushanbe",
+      "status": "Inactive",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 4,
+      "img": "images/Avatar4.png",
+      "email": "michael.mitc@example.com",
+      "name": "Cody Fisher",
+      "city": "Bokhtar",
+      "status": "Active",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 5,
+      "img": "images/Avatar5.png",
+      "email": "feliciar.reid@example.com",
+      "name": "Esther Howard",
+      "city": "Dushanbe",
+      "status": "Active",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 6,
+      "img": "images/Avatar6.png",
+      "email": "kenzi.lawson@example.com",
+      "name": "Kristin Watson",
+      "city": "Khujand",
+      "status": "Active",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "id": 7,
+      "img": "images/Avatar7.png",
+      "email": "deanna.curtis@example.com",
+      "name": "Dianne Russell",
+      "city": "Dushanbe",
+      "status": "Inactive",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false
+    },
+    {
+      "img": "images/Avatar8.png",
+      "name": "Ronald Richards",
+      "email": "tim.jennings@example.com",
+      "city": "Hisor",
+      "status": "Active",
+      "phone": "88888 0090",
+      "point3": " ",
+      "iscomplete": false,
+      "id": 8
+    }
+  ]
+}

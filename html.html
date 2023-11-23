@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaket</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    
+    <!---navbar-->
+    <div class="nav">
+        <h1>User List</h1>
+        <div class="new">
+            <button class="btnNew"> + New</button>
+            <div class="lightDark">
+                <button class="btnLight"><img src="./icons/sun.png" alt="sun">Light</button>
+                <button class="btnDark">Dark <img src="./icons/moon.png" alt="moon"></button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--dialog for add (btnNew)-->
+    <dialog class="addDialog">
+        <div class="title">
+            <h1>Add</h1>
+            <img src="./icons/x.png" alt="x" class="imgX">
+        </div>
+        <hr>
+        <div class="put">
+            <input type="image" class="input_img" placeholder="img">
+            <input type="text" class="input_name" placeholder="name">
+            <input type="text" class="input_email" placeholder="email">
+            <input type="text" class="input_city" placeholder=" city">
+            <input type="text" class="input_status" placeholder="Status">
+            <input type="text" class="input_phone" placeholder="phone">
+        <div class="saveCancel">
+            <button class="btnSave">SAVE</button>
+            <button class="btnCancel">CANCEL</button>
+        </div>
+        </div>
+    </dialog>
+    
+    <!--2 navbar-->
+    <div class="allnav2">
+        <div class="select">
+            <fieldset class="legend1">
+                <legend>Status</legend>
+                <select name="" id="">
+                    <option value="" class="option">All status</option>
+                    <option value="">Active</option>
+                    <option value="">Inactive</option>
+                </select>
+            </fieldset>
+            
+            <fieldset class="legend2">
+                <legend>City</legend>
+                <select name="" id="">
+                    <option value="">All city</option>
+                    <option value="">Dushanbe</option>
+                    <option value="">Bokhtar</option>
+                    <option value="">Hisor</option>
+                    <option value="">Khujand</option>
+                    <option value="">Kulob</option>
+                </select>
+            </fieldset>
+        </div>
+        
+        <fieldset class="legend3">
+            <legend>Search</legend>
+            <input type="text" class="inp3" placeholder="Name,email, etc...">
+            <img src="./icons/search.png" class="search">
+        </fieldset>
+    </div>
+
+
+    <!--table-->
+    <table class="table">
+            <tr class="tr" style="background-color:rgba(161, 196, 226, 0.293)">
+                <td><img src="./icons/name.png">  Name</td>
+                <td class="tdA"><img src="./icons/key.png" class="key"> Город</td>
+                <td class="tdB"><img src="./icons/clock.png" alt="clock"> Status <img src="./icons/vector.png" alt="vector"></td>
+                <td class="tdC"><img src="./icons/phone.png" alt="hone"> Phone</td>
+                <td></td>
+            </tr>
+            <tbody class="box"></tbody>
+    </table>
+
+    <!--infoDialog-->
+    <dialog class="infoDialog">
+        <div class="info">
+            <img src="./icons/profile.png" alt="info" class="info">
+            <h4>View profile</h4>
+        </div>
+        <div class="edit">
+            <img src="./icons/edit.png" class="edit">
+            <h4>Edit</h4>
+        </div>
+        <div class="delete">
+            <img src="./icons/delete.png"  class="delete">
+            <h4>Delete</h4>
+        </div>
+    </dialog>
+
+    <!--profileDialog-->
+    <dialog class="dialogInfo">
+        <div class="nav1">
+            <img src="./icons/x.png" class="Closemodal">
+            <h3>User info</h3>
+        </div>
+        <hr>
+        <div class="all">
+            <img  class="img"></img>
+            <p class="name"></p>
+            <p class="email"></p>
+        </div>
+        <hr>
+        <div class="dCity">
+            <p class="pCity"></p>
+            <p class="city"></p>
+        </div>
+        <div class="dActive">
+            <p class="pSta"></p>
+            <p class="active"></p>
+        </div>
+        <div class="dPhone">
+            <p class="pPhon"></p>
+            <p class="phone"></p>
+        </div>
+
+        <div class="btnDowm">
+            <button class="Edit"> <img src="./icons/edit.png">Edit</button>
+            <button class="Delete"> <img src="./icons/delete.png">Delete</button>
+        </div>
+    </dialog>
+
+     <!--dialogedit-->
+     <dialog class="editDialog">
+        <div class="title">
+            <h1>Edit</h1>
+        </div>
+        <div class="inp_all">
+            <input type="image" class="edit_inp1">
+            <input type="text" class="edit_inp2">
+            <input type="text" class="edit_inp3">
+            <input type="text" class="edit_inp4">
+            <input type="text" class="edit_inp5">
+            <input type="text" class="edit_inp6">
+            <button class="edit_btn">Edit</button>
+        </div>
+     </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
+    
+</body>
+</html>
